@@ -47,10 +47,12 @@ This implementation is based on Newtonsoft Json.Net serializer.</Description>
 - Support for Keyspace isolation;</PackageReleaseNotes>
 		<PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
 	</PropertyGroup>
-  <ItemGroup>
-    <PackageReference Include="Newtonsoft.Json" Version="10.0.3" />
-  </ItemGroup>
 	<ItemGroup>
 		<ProjectReference Include="..\StackExchange.Redis.Extensions.Core\StackExchange.Redis.Extensions.Core.csproj" />
+	</ItemGroup>
+	<ItemGroup>
+	  <Reference Include="Newtonsoft.Json">
+	    <HintPath>..\..\..\..\work\LPv64_JohnTest\Dependencies\External\Newtonsoft.Json\Newtonsoft.Json.dll</HintPath>
+	  </Reference>
 	</ItemGroup>
 </Project>
