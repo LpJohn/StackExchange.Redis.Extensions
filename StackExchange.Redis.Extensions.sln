@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27130.2026
+VisualStudioVersion = 15.0.27004.2005
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{2CDE9AE5-6C60-4243-A42B-389102D4D065}"
 EndProject
@@ -11,23 +11,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StackExchange.Redis.Extensi
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "serializers", "serializers", "{3BFA52FE-691A-4273-B629-2E8BA9B64173}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StackExchange.Redis.Extensions.Binary", "src\StackExchange.Redis.Extensions.Binary\StackExchange.Redis.Extensions.Binary.csproj", "{F65E376A-3576-447F-98D4-C9445A4B282F}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StackExchange.Redis.Extensions.Jil", "src\StackExchange.Redis.Extensions.Jil\StackExchange.Redis.Extensions.Jil.csproj", "{2C36B0A2-C0D5-48BF-A09C-6EB1F5DFE4A7}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StackExchange.Redis.Extensions.MsgPack", "src\StackExchange.Redis.Extensions.MsgPack\StackExchange.Redis.Extensions.MsgPack.csproj", "{5CEC5742-4405-4940-BFC1-6FD934618116}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StackExchange.Redis.Extensions.Newtonsoft", "src\StackExchange.Redis.Extensions.Newtonsoft\StackExchange.Redis.Extensions.Newtonsoft.csproj", "{97E6BF96-A893-4D7A-9F3C-EB7DD1D8D0AD}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StackExchange.Redis.Extensions.Protobuf", "src\StackExchange.Redis.Extensions.Protobuf\StackExchange.Redis.Extensions.Protobuf.csproj", "{F973BE6A-EC25-4802-8C94-78FD42145E7D}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StackExchange.Redis.Extensions.Utf8Json", "src\StackExchange.Redis.Extensions.Utf8Json\StackExchange.Redis.Extensions.Utf8Json.csproj", "{FDD55687-01F6-4A0F-A005-3F051269C0DE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StackExchange.Redis.Extensions.LegacyConfiguration", "src\StackExchange.Redis.Extensions.LegacyConfiguration\StackExchange.Redis.Extensions.LegacyConfiguration.csproj", "{020865AF-EFC6-4958-A69C-26620302458E}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StackExchange.Redis.Extensions.Tests", "tests\StackExchange.Redis.Extensions.Tests\StackExchange.Redis.Extensions.Tests.csproj", "{867265FA-7ECA-4A0B-AFCD-8DC596765CB4}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StackExchange.Redis.Extensions.LegacyConfiguration.Tests", "tests\StackExchange.Redis.Extensions.LegacyConfiguration.Tests\StackExchange.Redis.Extensions.LegacyConfiguration.Tests.csproj", "{1A9EC7B6-8E8E-4853-80D8-D2BA2E5E206F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,26 +27,10 @@ Global
 		{645EAA81-B8E8-4BDF-9787-BB7F262A2BE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{645EAA81-B8E8-4BDF-9787-BB7F262A2BE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{645EAA81-B8E8-4BDF-9787-BB7F262A2BE4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F65E376A-3576-447F-98D4-C9445A4B282F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F65E376A-3576-447F-98D4-C9445A4B282F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F65E376A-3576-447F-98D4-C9445A4B282F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F65E376A-3576-447F-98D4-C9445A4B282F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2C36B0A2-C0D5-48BF-A09C-6EB1F5DFE4A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2C36B0A2-C0D5-48BF-A09C-6EB1F5DFE4A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2C36B0A2-C0D5-48BF-A09C-6EB1F5DFE4A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2C36B0A2-C0D5-48BF-A09C-6EB1F5DFE4A7}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5CEC5742-4405-4940-BFC1-6FD934618116}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5CEC5742-4405-4940-BFC1-6FD934618116}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5CEC5742-4405-4940-BFC1-6FD934618116}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5CEC5742-4405-4940-BFC1-6FD934618116}.Release|Any CPU.Build.0 = Release|Any CPU
 		{97E6BF96-A893-4D7A-9F3C-EB7DD1D8D0AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{97E6BF96-A893-4D7A-9F3C-EB7DD1D8D0AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{97E6BF96-A893-4D7A-9F3C-EB7DD1D8D0AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{97E6BF96-A893-4D7A-9F3C-EB7DD1D8D0AD}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F973BE6A-EC25-4802-8C94-78FD42145E7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F973BE6A-EC25-4802-8C94-78FD42145E7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F973BE6A-EC25-4802-8C94-78FD42145E7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F973BE6A-EC25-4802-8C94-78FD42145E7D}.Release|Any CPU.Build.0 = Release|Any CPU
 		{FDD55687-01F6-4A0F-A005-3F051269C0DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{FDD55687-01F6-4A0F-A005-3F051269C0DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FDD55687-01F6-4A0F-A005-3F051269C0DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -67,14 +39,6 @@ Global
 		{020865AF-EFC6-4958-A69C-26620302458E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{020865AF-EFC6-4958-A69C-26620302458E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{020865AF-EFC6-4958-A69C-26620302458E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{867265FA-7ECA-4A0B-AFCD-8DC596765CB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{867265FA-7ECA-4A0B-AFCD-8DC596765CB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{867265FA-7ECA-4A0B-AFCD-8DC596765CB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{867265FA-7ECA-4A0B-AFCD-8DC596765CB4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1A9EC7B6-8E8E-4853-80D8-D2BA2E5E206F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1A9EC7B6-8E8E-4853-80D8-D2BA2E5E206F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1A9EC7B6-8E8E-4853-80D8-D2BA2E5E206F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1A9EC7B6-8E8E-4853-80D8-D2BA2E5E206F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -82,15 +46,9 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{645EAA81-B8E8-4BDF-9787-BB7F262A2BE4} = {2CDE9AE5-6C60-4243-A42B-389102D4D065}
 		{3BFA52FE-691A-4273-B629-2E8BA9B64173} = {2CDE9AE5-6C60-4243-A42B-389102D4D065}
-		{F65E376A-3576-447F-98D4-C9445A4B282F} = {3BFA52FE-691A-4273-B629-2E8BA9B64173}
-		{2C36B0A2-C0D5-48BF-A09C-6EB1F5DFE4A7} = {3BFA52FE-691A-4273-B629-2E8BA9B64173}
-		{5CEC5742-4405-4940-BFC1-6FD934618116} = {3BFA52FE-691A-4273-B629-2E8BA9B64173}
 		{97E6BF96-A893-4D7A-9F3C-EB7DD1D8D0AD} = {3BFA52FE-691A-4273-B629-2E8BA9B64173}
-		{F973BE6A-EC25-4802-8C94-78FD42145E7D} = {3BFA52FE-691A-4273-B629-2E8BA9B64173}
 		{FDD55687-01F6-4A0F-A005-3F051269C0DE} = {3BFA52FE-691A-4273-B629-2E8BA9B64173}
 		{020865AF-EFC6-4958-A69C-26620302458E} = {2CDE9AE5-6C60-4243-A42B-389102D4D065}
-		{867265FA-7ECA-4A0B-AFCD-8DC596765CB4} = {7C18C52E-38F4-4235-BA00-037107ABD6EB}
-		{1A9EC7B6-8E8E-4853-80D8-D2BA2E5E206F} = {7C18C52E-38F4-4235-BA00-037107ABD6EB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {41648C83-8F46-4194-ACD1-43333862B126}

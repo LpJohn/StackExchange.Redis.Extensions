@@ -15,7 +15,7 @@ This implementation is based on UTF8Json serializer.</Description>
 		<TreatWarningsAsErrors>true</TreatWarningsAsErrors>
 		<AssemblyName>StackExchange.Redis.Extensions.Utf8Json</AssemblyName>
 		<AssemblyOriginatorKeyFile>..\..\StackExchange.Redis.Extensions.Core.snk</AssemblyOriginatorKeyFile>
-		<SignAssembly>true</SignAssembly>
+		<SignAssembly>false</SignAssembly>
 		<PackageId>StackExchange.Redis.Extensions.Utf8Json</PackageId>
 		<PackageProjectUrl>https://github.com/imperugo/StackExchange.Redis.Extensions</PackageProjectUrl>
 		<PackageLicenseUrl>https://github.com/imperugo/StackExchange.Redis.Extensions/blob/master/LICENSE</PackageLicenseUrl>
